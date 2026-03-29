@@ -1,0 +1,21 @@
+package modulbab5;
+//Muhammad Faiz najmuddin
+//255150707111013
+public class TestVehicle1{
+public static void main(String[] args){
+
+vehicle1 vehicle = new vehicle1();
+//Vehicle1 vehicle2 = new Vehicle1(1000);
+System.out.println("Add box #1 (500kg) : " + vehicle.addBox(500));
+
+System.out.println("Add box #2 (250kg) : " + vehicle.addBox(250));
+
+System.out.println("Add box #3 (5000kg) : " + vehicle.addBox(5000));
+
+System.out.println("Add box #4 (4000kg) : " + vehicle.addBox(4000));
+
+System.out.println("Add box #5 (300kg) : " + vehicle.addBox(300));
+
+System.out.println("Vehicle load is " +vehicle.getLoad() + "kg");
+}
+}  
